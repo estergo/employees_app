@@ -3,6 +3,12 @@
 This app is used for managing employees.
 You are able to view list of all employees, remove employee and add a new employee.
 
+You can browse to the app here:
+
+http://18.221.106.19:3000
+
+Or install a local environment:
+
 # Setup environment
 
 ## Node.js
