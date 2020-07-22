@@ -31,10 +31,13 @@ this may take a several minutes.
 
 In order to see data in the app, you can import the employees.json file form the root folder of the project into the app DB.
 1. open mongoDB installation directory:
+
     `cd C:\Program Files\MongoDB\Server\4.2\bin` - this path can be different according to your OS and mongo version
 2. paste employees.json file 
 3. Import the data into the DB by running the command:
+
     `mongoimport --jsonArray -d employees -c employees employees.json`
+    
     20 documents should be imported
 
 # Run employees app
