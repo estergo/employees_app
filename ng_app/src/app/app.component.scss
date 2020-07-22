@@ -1,0 +1,11 @@
+mat-toolbar {
+    position: fixed;
+    z-index: 4;
+   .account-icon {
+        margin-right: 10px;
+    } 
+}
+.content {
+    padding: 50px;
+    margin-top: 64px;
+}

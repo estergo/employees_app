@@ -1,0 +1,28 @@
+<mat-card>
+
+    <mat-card-title>Add a New Employee</mat-card-title>
+
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+        <mat-card-content>
+            <mat-form-field appearance="fill">
+                <mat-label>Full Name:</mat-label>
+                <input matInput ngModel name="name" required #name="ngModel" />
+                <mat-error *ngIf="name.invalid">*required!</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Department:</mat-label>
+                <mat-select ngModel name="department" #department="ngModel" required>
+                    <mat-option *ngFor="let department of departmentsList" [value]="department">
+                        {{department}}
+                    </mat-option>
+                </mat-select>
+                <mat-error *ngIf="department.invalid">*required!</mat-error>
+            </mat-form-field>
+        </mat-card-content>
+
+        <mat-card-footer>
+            <button mat-stroked-button color="primary">Add</button>
+        </mat-card-footer>
+        
+    </form>
+</mat-card>

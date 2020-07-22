@@ -1,0 +1,28 @@
+
+table{
+    width: 100%;
+    tr {
+       &:nth-child(odd) {
+           background: #eeeeee;
+       }
+       &:first-child {
+           background-color: #160a2c42;
+           th {
+               border-bottom: 1px solid grey;
+           }
+       }
+    }
+    th, td {
+        padding: 10px;
+        text-align: left;
+
+    }
+    .icon-delete {
+        margin-right: 2px;
+    }
+}
+.show-more{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}

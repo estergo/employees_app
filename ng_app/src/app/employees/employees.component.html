@@ -1,0 +1,26 @@
+<div class="mat-elevation-z8">
+    <table>
+        <tr>
+            <th> Id </th>
+            <th> Name </th>
+            <th> Department </th>
+            <th> Action </th>
+        </tr>
+        <tr *ngFor="let employee of employeesList; index as i">
+            <td> {{employee.id}} </td>
+            <td> {{employee.name}} </td>
+            <td> {{employee.department}} </td>
+            <td (click)="removeEmployee(employee.id, i)">
+                <button mat-button>
+                    <mat-icon class="icon-delete">delete_outline</mat-icon>
+                    <span>Remove</span>
+                </button>
+            </td>
+
+        </tr>
+    </table>
+</div>
+<button class="show-more" mat-button color="primary" (click)="getList()" [disabled]="!isPaginationEnabled">
+    Show more
+    <mat-icon>chevron_right</mat-icon>
+</button>
