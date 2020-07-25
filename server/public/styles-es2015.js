@@ -18,7 +18,7 @@ module.exports = [[module.i, ".mat-badge-content{font-weight:600;font-size:12px;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "body {\n  margin: 0;\n}\n\n.success-snackbar {\n  background-color: #81c784;\n  color: black;\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxccHJvamVjdFxcRW1wbG95ZWVzX2FwcFxcbmdfYXBwL3NyY1xcc3R5bGVzLnNjc3MiLCJzcmMvc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxTQUFBO0FDQ0o7O0FEQ0E7RUFDSSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQ0VKIiwiZmlsZSI6InNyYy9zdHlsZXMuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICAgIG1hcmdpbjogMDtcbn1cbi5zdWNjZXNzLXNuYWNrYmFye1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM4MWM3ODQ7XG4gICAgY29sb3I6IGJsYWNrO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbiIsImJvZHkge1xuICBtYXJnaW46IDA7XG59XG5cbi5zdWNjZXNzLXNuYWNrYmFyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzgxYzc4NDtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */", '', '']]
+module.exports = [[module.i, "body {\n  margin: 0;\n}\n\n.success-snackbar {\n  background-color: #81c784;\n  color: black;\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxccHJvamVjdFxcZW1wbG95ZWVzX2FwcFxcbmdfYXBwL3NyY1xcc3R5bGVzLnNjc3MiLCJzcmMvc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxTQUFBO0FDQ0o7O0FEQ0E7RUFDSSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQ0VKIiwiZmlsZSI6InNyYy9zdHlsZXMuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICAgIG1hcmdpbjogMDtcbn1cbi5zdWNjZXNzLXNuYWNrYmFye1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM4MWM3ODQ7XG4gICAgY29sb3I6IGJsYWNrO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbiIsImJvZHkge1xuICBtYXJnaW46IDA7XG59XG5cbi5zdWNjZXNzLXNuYWNrYmFyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzgxYzc4NDtcbiAgY29sb3I6IGJsYWNrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59Il19 */", '', '']]
 
 /***/ }),
 
@@ -371,8 +371,8 @@ module.exports = exported;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\project\Employees_app\ng_app\node_modules\@angular\material\prebuilt-themes\deeppurple-amber.css */"./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css");
-module.exports = __webpack_require__(/*! C:\project\Employees_app\ng_app\src\styles.scss */"./src/styles.scss");
+__webpack_require__(/*! C:\project\employees_app\ng_app\node_modules\@angular\material\prebuilt-themes\deeppurple-amber.css */"./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css");
+module.exports = __webpack_require__(/*! C:\project\employees_app\ng_app\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })

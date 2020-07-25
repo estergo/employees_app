@@ -24,7 +24,9 @@ export class EmployeesComponent implements OnInit {
       if (data.length) {
         this.employeesList = [...this.employeesList, ...data];
         this.currentPagination += this.itemsPerPage;
-      } else {
+        
+      }
+      if (data.length < this.itemsPerPage) {
         this.isPaginationEnabled = false;
       }
     });
@@ -35,5 +37,4 @@ export class EmployeesComponent implements OnInit {
       this.employeesList.splice(index, 1);
     });
   }
-
 }
